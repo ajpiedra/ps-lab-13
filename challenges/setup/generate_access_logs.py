@@ -12,8 +12,7 @@ def generate_log():
         "url": f"/course/{random.choice(['python', 'javascript', 'java', 'csharp', 'go', 'ruby'])}",
         "status": random.choice([200, 201, 204, 400, 401, 403, 404, 500]),
         "response_time_ms": random.randint(20, 2000),
-        "latitude": round(random.uniform(-90, 90), 6),
-        "longitude": round(random.uniform(-180, 180), 6),
+		"location": f"POINT({round(random.uniform(-180, 180), 6)}, {round(random.uniform(-90, 90), 6)})",
         "user_agent": random.choice([
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15",
