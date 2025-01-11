@@ -30,22 +30,86 @@ real_ips_locations = [
     ("203.0.113.65", "151.2148", "-33.8523"),# Sydney, Australia (another alt)
     ("198.51.100.56", "55.2708", "25.2048"),  # Dubai, UAE
     ("192.0.2.69", "-3.7038", "40.4168"),    # Madrid, Spain
-    ("203.0.113.77", "-43.1729", "-22.9068"),# Rio de Janeiro, Brazil
     ("198.51.100.88", "-58.3838", "-34.6146"),# Buenos Aires, Argentina (alt IP)
     ("192.168.1.99", "77.1025", "28.7041"),   # New Delhi, India
-    ("203.0.113.111", "3.1589", "19.0758"),  # Mumbai, India
     ("198.51.100.123", "74.0060", "40.7128"),# New York, USA (alt IP)
     ("192.0.2.142", "139.6503", "35.6762"),  # Tokyo, Japan (alt IP)
     ("198.51.100.156", "2.2945", "48.8584"), # Paris, France (alt IP)
-    ("203.0.113.168", "31.2357", "30.0444")  # Cairo, Egypt (alt IP)
+    ("203.0.113.168", "31.2357", "30.0444"),  # Cairo, Egypt (alt IP)
+    ("203.0.113.10", "2.3522", "48.8566"),  # France
+    ("198.51.100.20", "13.4050", "52.5200"),  # Germany
+    ("192.0.2.33", "-73.935242", "40.730610"),  # New York City, USA
+    ("203.0.113.34", "28.9784", "41.0082"),     # Istanbul, Turkey
+    ("198.51.100.89", "12.4964", "41.9028"),    # Rome, Italy
+    ("192.0.2.55", "144.9631", "-37.8136"),     # Melbourne, Australia (alt IP)
+    ("203.0.113.45", "-122.6765", "45.5235"),   # Portland, USA
+    ("198.51.100.67", "37.7749", "-122.4194"),  # San Francisco, USA (alt IP)
+    ("192.0.2.78", "2.1734", "41.3851"),        # Barcelona, Spain
+    ("203.0.113.89", "13.4105", "52.5200"),     # Berlin, Germany
+    ("198.51.100.101", "139.6917", "35.6895"),  # Tokyo, Japan (another alt IP)
+    ("192.0.2.90", "151.2093", "-33.8688"),     # Sydney, Australia (yet another alt)
+    ("203.0.113.99", "19.0825", "72.7411"),  # Mumbai, India
+    ("198.51.100.111", "-33.9186", "18.4233"),  # Cape Town, South Africa
+    ("192.0.2.121", "6.5244", "3.3792"),    # Lagos, Nigeria
+    ("203.0.113.132", "-43.2094", "-22.9119"),  # Rio de Janeiro, Brazil
+    ("198.51.100.143", "151.2148", "-33.8688"),  # Sydney, Australia (yet another alt)
+    ("192.0.2.154", "103.851959", "1.290270"),  # Singapore (alt IP)
+    ("203.0.113.165", "37.9838", "23.7275"),  # Athens, Greece
+    ("198.51.100.176", "139.731992", "35.709026"),  # Tokyo, Japan (another alt IP)
+    ("192.0.2.187", "34.052235", "-118.243683"),  # Los Angeles, USA (alt IP)
+    ("203.0.113.198", "40.712776", "-74.005974"),  # New York, USA (yet another alt)
+    ("192.0.2.200", "-77.0369", "38.9072"),  # Washington, D.C., USA
+    ("203.0.113.211", "-0.118092", "51.509865"),  # London, UK (alt IP)
+    ("198.51.100.222", "72.8777", "19.0760"),  # Mumbai, India (alt IP)
+    ("192.0.2.233", "12.5683", "55.6761"),  # Copenhagen, Denmark
+    ("203.0.113.244", "174.7655", "-36.8509"),  # Auckland, New Zealand
+    ("198.51.100.255", "77.5946", "12.9716"),  # Bangalore, India
+    ("192.0.2.112", "35.689487", "139.691706"),  # Tokyo, Japan (one more alt)
+    ("203.0.113.123", "4.3517", "50.8503"),  # Brussels, Belgium
+    ("198.51.100.134", "2.3522", "48.8566"),  # Paris, France (yet another alt)
+    ("192.0.2.145", "31.2357", "30.0444"),  # Cairo, Egypt (yet another alt)
+    ("203.0.113.156", "106.8650", "-6.1751"),  # Jakarta, Indonesia
+    ("198.51.100.167", "-43.1729", "-22.9028"),  # Rio de Janeiro, Brazil (alt)
+    ("192.0.2.178", "30.5234", "50.4501"),  # Kiev, Ukraine
+    ("203.0.113.189", "23.729359", "37.983810"),  # Athens, Greece (alt)
+    ("198.51.100.200", "10.75", "59.91"),  # Oslo, Norway
+    ("192.0.2.211", "-46.6333", "-23.5505"),  # São Paulo, Brazil
+    ("203.0.113.222", "50.1109", "8.6821"),  # Frankfurt, Germany
+    ("198.51.100.233", "2.159", "41.376"),  # Barcelona, Spain (alt)
+    ("192.0.2.244", "-98.4936", "29.4241"),  # San Antonio, USA
+    ("203.0.113.255", "118.795", "32.060"),  # Nanjing, China
+    ("198.51.100.266", "-73.855", "41.295"),  # White Plains, USA
+    ("192.0.2.277", "112.98", "28.23"),  # Changsha, China
+    ("203.0.113.288", "21.0122", "52.2297"),  # Warsaw, Poland
+    ("198.51.100.299", "-115.173", "36.114"),  # Las Vegas, USA
+    ("192.0.2.310", "-0.963", "37.389"),  # Sevilla, Spain
+    ("203.0.113.321", "1.511", "52.631"),  # Norwich, UK
+    ("198.51.100.332", "18.692", "63.825"),  # Östersund, Sweden
+    ("192.0.2.343", "7.420", "-0.228"),  # Ghana, Accra
+    ("203.0.113.354", "100.516", "13.756"),  # Bangkok, Thailand
+    ("198.51.100.365", "-58.381", "-34.603"),  # Buenos Aires, Argentina (alt alt)
+    ("192.0.2.376", "90.393", "23.79"),  # Dhaka, Bangladesh
+    ("203.0.113.387", "50.45", "26.23"),  # Zhytomyr, Ukraine
+    ("198.51.100.398", "-23.54", "64.135"),  # Reykjavik, Iceland
+    ("192.0.2.409", "113.57", "22.21"),  # Zhongshan, China
+    ("203.0.113.420", "79.87", "6.927"),  # Colombo, Srilanka
+    ("198.51.100.431", "35.3", "32.1"),  # Beirut, Lebanon
+    ("192.0.2.442", "101.686", "3.139"),  # Kuala Lumpur, Malaysia
+    ("203.0.113.453", "31.235711", "30.044387"),  # Cairo, Egypt (one more alt)
+    ("198.51.100.464", "2.35222", "48.85661"),  # Paris, France (another alt)
+    ("192.0.2.475", "139.69171", "35.68951"),  # Tokyo, Japan (one more alt)
+    ("203.0.113.486", "72.8777", "19.0760"),  # Mumbai, India (alt alt)
+    ("198.51.100.497", "10.7", "59.91"),  # Oslo, Norway (alt)
+    ("192.0.2.508", "2.163", "48.844"),  # Marseille, France
+    ("203.0.113.519", "127.463", "36.33"),  # Daejeon, South Korea
+    ("198.51.100.530", "18.96", "27.18"),  # Grängesberg, Sweden
 ]
-
 
 # Predefined mappings of IPs to locations for DDoS attacks
 ddos_ips_locations = [
-    ("203.0.113.10", "2.3522", "48.8566"),  # France
-    ("198.51.100.20", "13.4050", "52.5200"),  # Germany
-    ("192.0.2.30", "-0.1278", "51.5074")    # UK
+    ("192.0.2.30", "-0.1278", "51.5074"),    # UK
+    ("203.0.113.77", "-43.1729", "-22.9068"),# Rio de Janeiro, Brazil
+    ("203.0.113.111", "3.1589", "19.0758"),  # Mumbai, India
 ]
 
 # Function to generate a log entry
@@ -54,7 +118,7 @@ def generate_log_entry(timestamp, ip, user_agent, location, method, url, status_
         "timestamp": timestamp.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "ip": ip,
         "user_agent": user_agent,
-        "location": f"POINT({location[1]} {location[0]})",
+        "location": f"POINT ({location[1]} {location[0]})",
         "method": method,
         "url": url,
         "status_code": status_code,
@@ -185,11 +249,12 @@ end_time = datetime(2025, 1, 11, 10, 30, 0)
 ddos_start = datetime(2025, 1, 11, 10, 7, 0)
 ddos_end = datetime(2025, 1, 11, 10, 19, 0)
 num_ddos_entries = 3821
-num_normal_entries = 7895
+num_normal_entries = 27895
 
 # Generate logs
 logs = generate_logs(start_time, end_time, ddos_start, ddos_end, num_ddos_entries, num_normal_entries)
 
 # Save logs to a JSON file
 with open("web_access_logs.json", "w") as f:
-    json.dump(logs, f, indent=2)
+    for line in logs:
+        f.write(f"{json.dumps(line)}\n")
