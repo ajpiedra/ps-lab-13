@@ -59,7 +59,7 @@ def generate_log_entry(timestamp, ip, user_agent, location, method, url, status_
         "url": url,
         "status_code": status_code,
         "referrer": referrer,
-        "response_time_ms": response_time_ms
+        "response_time_ms": response_time_ms[0]
     }
 
 # Function to generate logs
@@ -135,9 +135,16 @@ def generate_logs(start_time, end_time, ddos_start, ddos_end, num_ddos_entries, 
         "https://www.google.com",
         "https://www.bing.com",
         "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
+        "https://www.pluralsight.com",
         "https://www.linkedin.com",
-        "https://twitter.com",
-        "https://facebook.com",
         ""
     ]
 
