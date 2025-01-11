@@ -249,7 +249,7 @@ end_time = datetime(2025, 1, 11, 10, 30, 0)
 ddos_start = datetime(2025, 1, 11, 10, 7, 0)
 ddos_end = datetime(2025, 1, 11, 10, 19, 0)
 num_ddos_entries = 3821
-num_normal_entries = 27895
+num_normal_entries = 7895
 
 # Generate logs
 logs = generate_logs(start_time, end_time, ddos_start, ddos_end, num_ddos_entries, num_normal_entries)
