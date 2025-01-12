@@ -95,7 +95,6 @@ real_ips_locations = [
     ("203.0.113.453", "31.235711", "30.044387"),  # Cairo, Egypt (one more alt)
     ("198.51.100.464", "2.35222", "48.85661"),  # Paris, France (another alt)
     ("192.0.2.475", "139.69171", "35.68951"),  # Tokyo, Japan (one more alt)
-    ("203.0.113.486", "72.8777", "19.0760"),  # Mumbai, India (alt alt)
     ("198.51.100.497", "10.7", "59.91"),  # Oslo, Norway (alt)
     ("192.0.2.508", "2.163", "48.844"),  # Marseille, France
     ("203.0.113.519", "127.463", "36.33"),  # Daejeon, South Korea
@@ -105,7 +104,7 @@ real_ips_locations = [
 # Predefined mappings of IPs to locations for DDoS attacks
 ddos_ips_locations = [
     ("203.0.113.77", "-43.1729", "-22.9068"),# Rio de Janeiro, Brazil
-    ("203.0.113.111", "3.1589", "19.0758"),  # Mumbai, India
+    ("203.0.113.486", "72.8777", "19.0760"),  # Mumbai, India (alt alt)
 ]
 
 # Function to generate a log entry
