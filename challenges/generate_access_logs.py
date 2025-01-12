@@ -8,7 +8,6 @@ def random_timestamp(start, end):
 
 # Predefined list of real-world locations (latitude and longitude) with corresponding IPs
 real_ips_locations = [
-    ("203.0.113.10", "2.3522", "48.8566"),   # France
     ("198.51.100.20", "13.4050", "52.5200"), # Germany
     ("192.0.2.30", "-0.1278", "51.5074"),    # UK
     ("192.168.0.1", "-74.0060", "40.7128"),  # New York, USA
@@ -34,7 +33,6 @@ real_ips_locations = [
     ("192.168.1.99", "77.1025", "28.7041"),   # New Delhi, India
     ("198.51.100.123", "74.0060", "40.7128"),# New York, USA (alt IP)
     ("192.0.2.142", "139.6503", "35.6762"),  # Tokyo, Japan (alt IP)
-    ("198.51.100.156", "2.2945", "48.8584"), # Paris, France (alt IP)
     ("203.0.113.168", "31.2357", "30.0444"),  # Cairo, Egypt (alt IP)
     ("203.0.113.10", "2.3522", "48.8566"),  # France
     ("198.51.100.20", "13.4050", "52.5200"),  # Germany
@@ -66,7 +64,6 @@ real_ips_locations = [
     ("198.51.100.255", "77.5946", "12.9716"),  # Bangalore, India
     ("192.0.2.112", "35.689487", "139.691706"),  # Tokyo, Japan (one more alt)
     ("203.0.113.123", "4.3517", "50.8503"),  # Brussels, Belgium
-    ("198.51.100.134", "2.3522", "48.8566"),  # Paris, France (yet another alt)
     ("192.0.2.145", "31.2357", "30.0444"),  # Cairo, Egypt (yet another alt)
     ("203.0.113.156", "106.8650", "-6.1751"),  # Jakarta, Indonesia
     ("198.51.100.167", "-43.1729", "-22.9028"),  # Rio de Janeiro, Brazil (alt)
@@ -107,7 +104,6 @@ real_ips_locations = [
 
 # Predefined mappings of IPs to locations for DDoS attacks
 ddos_ips_locations = [
-    ("192.0.2.30", "-0.1278", "51.5074"),    # UK
     ("203.0.113.77", "-43.1729", "-22.9068"),# Rio de Janeiro, Brazil
     ("203.0.113.111", "3.1589", "19.0758"),  # Mumbai, India
 ]
@@ -246,9 +242,9 @@ def generate_logs(start_time, end_time, ddos_start, ddos_end, num_ddos_entries, 
 # Parameters
 start_time = datetime(2025, 1, 11, 10, 0, 0)
 end_time = datetime(2025, 1, 11, 10, 30, 0)
-ddos_start = datetime(2025, 1, 11, 10, 7, 0)
+ddos_start = datetime(2025, 1, 11, 10, 12, 0)
 ddos_end = datetime(2025, 1, 11, 10, 19, 0)
-num_ddos_entries = 3821
+num_ddos_entries = 5021
 num_normal_entries = 7895
 
 # Generate logs
